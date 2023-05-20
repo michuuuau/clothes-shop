@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Bluzka1",
+            "price": "199.99",
+            "currency": "PLN",
+            "category": "shirt"
+        },
+        {
+            "id": 2,
+            "name": "Bluzka2",
+            "price": "199.99",
+            "currency": "PLN",
+            "category": "shirt" 
+        },
+        {
+            "id": 3,
+            "name": "Bluzka3",
+            "price": "199.99",
+            "currency": "PLN",
+            "category": "shirt" 
+        },
+        {
+            "id": 4,
+            "name": "Jeans1",
+            "price": "299.99",
+            "currency": "PLN",
+            "category": "jeans" 
+        }
+    ]
+}
