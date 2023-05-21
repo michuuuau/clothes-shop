@@ -14,7 +14,8 @@ export const useCartStore = defineStore("cart", () => {
   const cartTotal = computed(() => {
     let sum = 0;
     cartItems.value.forEach((item) => (sum += item.price * item.quantity));
-    return sum;
+    return sum.toFixed(2);
+    0;
   });
 
   const setCartItems = (items) => {

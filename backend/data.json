@@ -2,31 +2,244 @@
     "products": [
         {
             "id": 1,
-            "name": "Bluzka1",
+            "name": "Dzianinowa sukienka",
             "price": "199.99",
             "currency": "PLN",
-            "category": "shirt"
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress1.png"
         },
         {
             "id": 2,
-            "name": "Bluzka2",
-            "price": "199.99",
+            "name": "Koronkowa sukienka",
+            "price": "259.99",
             "currency": "PLN",
-            "category": "shirt" 
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress2.png"
         },
         {
             "id": 3,
-            "name": "Bluzka3",
-            "price": "199.99",
+            "name": "Kurtka jeansowa",
+            "price": "189.82",
             "currency": "PLN",
-            "category": "shirt" 
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket1.png"
         },
         {
             "id": 4,
-            "name": "Jeans1",
-            "price": "299.99",
+            "name": "Niebieskie jeansy",
+            "price": "89.99",
             "currency": "PLN",
-            "category": "jeans" 
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans1.png"
+        },
+        {
+            "id": 5,
+            "name": "Koszulka polo",
+            "price": "289.95",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt1.png"
+        },
+        {
+            "id": 6,
+            "name": "Bluza kangur",
+            "price": "239.95",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper1.png"
+        },
+        {
+            "id": 7,
+            "name": "Biała koszulka",
+            "price": "89.99",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt2.png"
+        },
+        {
+            "id": 8,
+            "name": "Koszulka długa",
+            "price": "129.99",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt3.png"
+        },
+        {
+            "id": 9,
+            "name": "Koszulka damska",
+            "price": "79.99",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt4.png"
+        },
+        {
+            "id": 10,
+            "name": "Koszulka sportowa",
+            "price": "109.99",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt5.png"
+        },
+        {
+            "id": 11,
+            "name": "Koszulka oversize",
+            "price": "119.00",
+            "currency": "PLN",
+            "category": "shirt",
+            "image": "http://localhost:8081/images/shirt6.png"
+        },
+        {
+            "id": 12,
+            "name": "Spodnie dresowe",
+            "price": "89.99",
+            "currency": "PLN",
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans2.png"
+        },
+        {
+            "id": 13,
+            "name": "Eleganckie spodnie",
+            "price": "150.99",
+            "currency": "PLN",
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans3.png"
+        },
+        {
+            "id": 14,
+            "name": "Spodnie chinosy",
+            "price": "199.00",
+            "currency": "PLN",
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans4.png"
+        },
+        {
+            "id": 15,
+            "name": "Spodnie garniturowe",
+            "price": "300.92",
+            "currency": "PLN",
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans5.png"
+        },
+        {
+            "id": 16,
+            "name": "Spodnie lniane",
+            "price": "399.99",
+            "currency": "PLN",
+            "category": "jeans",
+            "image": "http://localhost:8081/images/jeans6.png"
+        },
+        {
+            "id": 17,
+            "name": "Sukienka bawełniana",
+            "price": "189.82",
+            "currency": "PLN",
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress3.png"
+        },
+        {
+            "id": 18,
+            "name": "Długa sukienka",
+            "price": "400.59",
+            "currency": "PLN",
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress4.png"
+        },
+        {
+            "id": 19,
+            "name": "Sportowa sukienka",
+            "price": "189.89",
+            "currency": "PLN",
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress5.png"
+        },
+        {
+            "id": 20,
+            "name": "Krótka sukienka",
+            "price": "89.00",
+            "currency": "PLN",
+            "category": "dress",
+            "image": "http://localhost:8081/images/dress6.png"
+        },
+        {
+            "id": 21,
+            "name": "Bluza bawełniana",
+            "price": "159.99",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper2.png"
+        },
+        {
+            "id": 22,
+            "name": "Rozpinana bluza",
+            "price": "89.82",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper3.png"
+        },
+        {
+            "id": 23,
+            "name": "Bluza oversize",
+            "price": "99.59",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper4.png"
+        },
+        {
+            "id": 24,
+            "name": "Bluza sportowa",
+            "price": "199.89",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper5.png"
+        },
+        {
+            "id": 25,
+            "name": "Bluza frotte",
+            "price": "129.00",
+            "currency": "PLN",
+            "category": "jumper",
+            "image": "http://localhost:8081/images/jumper6.png"
+        },
+        {
+            "id": 26,
+            "name": "Kurtka bomberka",
+            "price": "159.99",
+            "currency": "PLN",
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket2.png"
+        },
+        {
+            "id": 27,
+            "name": "Kurtka puchowa",
+            "price": "529.99",
+            "currency": "PLN",
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket5.png"
+        },
+        {
+            "id": 28,
+            "name": "Kurtka koszulowa",
+            "price": "189.82",
+            "currency": "PLN",
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket3.png"
+        },
+        {
+            "id": 29,
+            "name": "Kurtka wiatrówka",
+            "price": "129.59",
+            "currency": "PLN",
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket4.png"
+        },
+        {
+            "id": 30,
+            "name": "Kurtka skórzana",
+            "price": "229.00",
+            "currency": "PLN",
+            "category": "jacket",
+            "image": "http://localhost:8081/images/jacket6.png"
         }
     ]
+    
 }

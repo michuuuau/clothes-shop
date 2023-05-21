@@ -21,6 +21,26 @@ const router = createRouter({
       component: HomeView,
     },
     {
+      path: "/shirt",
+      name: "shirt",
+      component: HomeView,
+    },
+    {
+      path: "/dress",
+      name: "dress",
+      component: HomeView,
+    },
+    {
+      path: "/jumper",
+      name: "jumper",
+      component: HomeView,
+    },
+    {
+      path: "/jacket",
+      name: "jacket",
+      component: HomeView,
+    },
+    {
       path: "/cart",
       name: "cart",
       component: CartView,

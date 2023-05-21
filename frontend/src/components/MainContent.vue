@@ -44,7 +44,7 @@ function handleAddProduct(product) {
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 .main {
     display: flex;
     flex: 1

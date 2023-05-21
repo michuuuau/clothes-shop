@@ -1,7 +1,7 @@
 <template>
     <div class="logo">
         <img alt="logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
-        <h2>Tolando</h2>
+        <h1>Tolando</h1>
     </div>
 </template>
 <style scoped>
@@ -9,5 +9,4 @@
     display: flex;
     align-items: center;
 }
-
 </style>

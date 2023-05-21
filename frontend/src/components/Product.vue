@@ -17,7 +17,7 @@ function handleAddProduct() {
 <template>
     <div>
         <div class="product">
-            <img alt="logo" class="logo" src="@/assets/product1.png" width="125" height="125" />
+            <img alt="logo" class="logo" :src="props.data.image" width="200" height="200" />
             <p>{{ props.data.name }}</p>
             <p>{{ props.data.price }}</p>
             <button @click="handleAddProduct">Dodaj</button>
@@ -26,12 +26,13 @@ function handleAddProduct() {
 </template>
 <style>
 .product {
-    border: 1px;
+    border: 2px;
     border-style: solid;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 10px;
+    padding: 25px;
+    margin: 5px 5px 0px 15px;
 }
 </style>

@@ -12,7 +12,9 @@ import Button from "./Button.vue"
         </Button>
         <Button>
             <template #body>
-                <p>Koszulki</p>
+                <router-link :to="{ name: 'shirt' }">
+                    <p>Koszulki</p>
+                </router-link>
             </template>
         </Button>
         <Button>
@@ -24,17 +26,23 @@ import Button from "./Button.vue"
         </Button>
         <Button>
             <template #body>
-                <p>Sukienki</p>
+                <router-link :to="{ name: 'dress' }">
+                    <p>Sukienki</p>
+                </router-link>
             </template>
         </Button>
         <Button>
             <template #body>
-                <p>Bluzy</p>
+                <router-link :to="{ name: 'jumper' }">
+                    <p>Bluzy</p>
+                </router-link>
             </template>
         </Button>
         <Button>
             <template #body>
-                <p>Kurtki</p>
+                <router-link :to="{ name: 'jacket' }">
+                    <p>Kurtki</p>
+                </router-link>
             </template>
         </Button>
     </div>
@@ -46,6 +54,7 @@ import Button from "./Button.vue"
 }
 
 .menu>* {
-    margin: 10px 0 10px 0;
+    margin: 10px 10px 10px 0;
+
 }
 </style>

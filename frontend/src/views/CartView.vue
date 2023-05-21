@@ -4,9 +4,34 @@ const cartStore = useCartStore();
 </script>
 <template>
     <div>
-        <div v-for="product in cartStore.cartItems">
-            <p>{{ product.name }}</p>
-            <p>{{ product.quanity }}</p>
+        <div class="products">
+            <div v-for="product in cartStore.cartItems">
+                <p>{{ product.name }}</p>
+                <div style="display: flex">
+                    <p style="margin-right: 20px;">{{ product.quantity }}</p>
+                    <p>{{ product.price }}</p>
+                </div>
+            </div>
+            <hr />
+        </div>
+        <div class="summary">
+            <p>Suma:
+
+                {{ cartStore.cartTotal }}</p>
         </div>
     </div>
 </template>
+<style scoped>
+.products>* {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1
+}
+
+.summary {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1
+}
+</style>

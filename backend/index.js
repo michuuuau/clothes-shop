@@ -3,6 +3,7 @@ import express from "express";
 import { productService } from "./ProductService.js";
 
 const app = express();
+app.use(express.static("public"));
 app.use(cors());
 
 app.get("/api/getProducts", async (req, res) => {
