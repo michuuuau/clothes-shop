@@ -1,7 +1,7 @@
 <script setup>
 import Logo from "./Logo.vue";
 import SearchInput from "./SearchInput.vue";
-import Button from "./Button.vue"
+import CartButton from "./CartButton.vue"
 </script>
 <template>
     <div class="header">
@@ -10,11 +10,7 @@ import Button from "./Button.vue"
             <div>
                 <SearchInput></SearchInput>
             </div>
-            <Button>
-                <template #body>
-                    <img alt="logo" class="logo" src="@/assets/basket.png" width="20" height="20" />
-                </template>
-            </Button>
+            <CartButton />
         </div>
     </div>
 </template>

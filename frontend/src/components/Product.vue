@@ -4,7 +4,14 @@ const props = defineProps({
         type: Object,
         required: true,
     },
+    onAdd: {
+        type: Function,
+        required: true,
+    }
 });
+function handleAddProduct() {
+    props.onAdd(props.data)
+}
 </script>
 
 <template>
@@ -13,7 +20,7 @@ const props = defineProps({
             <img alt="logo" class="logo" src="@/assets/product1.png" width="125" height="125" />
             <p>{{ props.data.name }}</p>
             <p>{{ props.data.price }}</p>
-            <button>Dodaj</button>
+            <button @click="handleAddProduct">Dodaj</button>
         </div>
     </div>
 </template>

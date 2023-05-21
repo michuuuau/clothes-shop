@@ -5,13 +5,10 @@ import MainContent from '../components/MainContent.vue';
 </script>
 
 <template>
-  <main>
-    <Header></Header>
-    <div class="content-container">
-      <Menu></Menu>
-      <MainContent></MainContent>
-    </div>
-  </main>
+  <div class="content-container">
+    <Menu></Menu>
+    <MainContent></MainContent>
+  </div>
 </template>
 <style>
 .content-container {
