@@ -27,7 +27,7 @@
         {
             "id": 4,
             "name": "Niebieskie jeansy",
-            "price": "89.99",
+            "price": "189.99",
             "currency": "PLN",
             "category": "jeans",
             "image": "http://localhost:8081/images/jeans1.png"
@@ -51,7 +51,7 @@
         {
             "id": 7,
             "name": "Biała koszulka",
-            "price": "89.99",
+            "price": "189.99",
             "currency": "PLN",
             "category": "shirt",
             "image": "http://localhost:8081/images/shirt2.png"
@@ -67,7 +67,7 @@
         {
             "id": 9,
             "name": "Koszulka damska",
-            "price": "79.99",
+            "price": "179.99",
             "currency": "PLN",
             "category": "shirt",
             "image": "http://localhost:8081/images/shirt4.png"
@@ -91,7 +91,7 @@
         {
             "id": 12,
             "name": "Spodnie dresowe",
-            "price": "89.99",
+            "price": "189.99",
             "currency": "PLN",
             "category": "jeans",
             "image": "http://localhost:8081/images/jeans2.png"
@@ -155,7 +155,7 @@
         {
             "id": 20,
             "name": "Krótka sukienka",
-            "price": "89.00",
+            "price": "189.00",
             "currency": "PLN",
             "category": "dress",
             "image": "http://localhost:8081/images/dress6.png"
@@ -171,7 +171,7 @@
         {
             "id": 22,
             "name": "Rozpinana bluza",
-            "price": "89.82",
+            "price": "189.82",
             "currency": "PLN",
             "category": "jumper",
             "image": "http://localhost:8081/images/jumper3.png"
@@ -179,7 +179,7 @@
         {
             "id": 23,
             "name": "Bluza oversize",
-            "price": "99.59",
+            "price": "199.59",
             "currency": "PLN",
             "category": "jumper",
             "image": "http://localhost:8081/images/jumper4.png"

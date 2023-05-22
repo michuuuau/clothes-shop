@@ -1,4 +1,5 @@
 <script setup>
+import Button from "../components/Button.vue";
 import { useCartStore } from "../stores/cart";
 const cartStore = useCartStore();
 </script>
@@ -20,6 +21,14 @@ const cartStore = useCartStore();
                 {{ cartStore.cartTotal }}</p>
         </div>
     </div>
+    <hr>
+    <div class="buy">
+        <Button>
+            <template #body>
+                <p>KUP TERAZ</p>
+            </template>
+        </Button>
+    </div>
 </template>
 <style scoped>
 .products>* {
@@ -30,6 +39,12 @@ const cartStore = useCartStore();
 }
 
 .summary {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1
+}
+
+.buy {
     display: flex;
     justify-content: flex-end;
     flex: 1

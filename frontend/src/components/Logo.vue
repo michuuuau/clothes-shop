@@ -8,5 +8,7 @@
 .logo {
     display: flex;
     align-items: center;
+    font-size: x-large;
+    color: black;
 }
 </style>

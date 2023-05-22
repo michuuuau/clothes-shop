@@ -55,6 +55,7 @@ import Button from "./Button.vue"
 
 .menu>* {
     margin: 10px 10px 10px 0;
+    background-color: #F6F4D7;
 
 }
 </style>
