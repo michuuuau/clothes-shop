@@ -4,7 +4,7 @@
         "id": 1,
         "name": "Dzianinowa sukienka",
         "description": "Sukienka wykonana z dzianiny o wysokiej zawartości recyklowanego poliestru z dodatkiem wełny.",
-        "price": "199.99 zł",
+        "price": "199.99",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress1.png"
@@ -13,7 +13,7 @@
         "id": 2,
         "name": "Koronkowa sukienka",
         "description": "Krótka sukienka z koronki, z okrągłym dekoltem i długim rękawem. Odkryte plecy oraz wiązanie u góry. Dostępna w różnych kolorach.",
-        "price": "259.99 zł",
+        "price": "259.99",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress2.png"
@@ -22,7 +22,7 @@
         "id": 3,
         "name": "Kurtka jeansowa",
         "description": "Katana o klasycznym fasonie, uszyta z ekologicznie pozyskiwanej bawełny.",
-        "price": "189.82 zł",
+        "price": "189.82",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket1.png"
@@ -31,7 +31,7 @@
         "id": 4,
         "name": "Niebieskie jeansy",
         "description": "Jeansy o kroju skinny z bardzo wysokim stanem, pięcioma kieszeniami oraz zapięciem na metalowy guzik i suwak kryty listwą.",
-        "price": "189.99 zł",
+        "price": "189.99",
         "currency": "PLN",
         "category": "jeans",
         "image": "http://localhost:8081/images/jeans1.png"
@@ -40,7 +40,7 @@
         "id": 5,
         "name": "Koszulka polo",
         "description": "T-shirt o kroju boxy, wykonany z bawełnianej dzianiny.",
-        "price": "289.95 zł",
+        "price": "289.95",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt1.png"
@@ -49,7 +49,7 @@
         "id": 6,
         "name": "Bluza kangur",
         "description": "Bluza o regularnym kształcie, uszyta z dzianiny z bawełną.",
-        "price": "239.95 zł",
+        "price": "239.95",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper1.png"
@@ -58,7 +58,7 @@
         "id": 7,
         "name": "Biała koszulka",
         "description": "Koszulka basic z krótkim rękawem.",
-        "price": "189.99 zł",
+        "price": "189.99",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt2.png"
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Koszulka długa",
         "description": "Koszulka oversize z długim rękawem i okrągłym dekoltem. Dostępna w różnych kolorach.",
-        "price": "129.99 zł",
+        "price": "129.99",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt3.png"
@@ -76,7 +76,7 @@
         "id": 9,
         "name": "Koszulka damska",
         "description": "T-shirt o regularnym fasonie, uszyty z bawełny.",
-        "price": "179.99 zł",
+        "price": "179.99",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt4.png"
@@ -85,7 +85,7 @@
         "id": 10,
         "name": "Koszulka sportowa",
         "description": "Koszulka treningowa regular szybkoschnąca damska. Wykonana z miękkiej i elastycznej dzianiny z szybkoschnącymi włóknami w technologii 4FDry.",
-        "price": "109.99 zł",
+        "price": "109.99",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt5.png"
@@ -94,7 +94,7 @@
         "id": 11,
         "name": "Koszulka oversize",
         "description": "Koszulka oversize z krótkim rękawem i okrągłym dekoltem. Dostępna w różnych kolorach.",
-        "price": "119.00 zł",
+        "price": "119.00",
         "currency": "PLN",
         "category": "shirt",
         "image": "http://localhost:8081/images/shirt6.png"
@@ -103,7 +103,7 @@
         "id": 12,
         "name": "Spodnie dresowe",
         "description": "Spodnie o swobodnym fasonie, uszyte z dresowej dzianiny z bawełną.",
-        "price": "189.99 zł",
+        "price": "189.99",
         "currency": "PLN",
         "category": "jeans",
         "image": "http://localhost:8081/images/jeans2.png"
@@ -121,7 +121,7 @@
         "id": 14,
         "name": "Spodnie chinosy",
         "description": "Spodnie typu paperbag, uszyte z bawełny z domieszką elastycznych włókien.",
-        "price": "199.00 zł",
+        "price": "199.00",
         "currency": "PLN",
         "category": "jeans",
         "image": "http://localhost:8081/images/jeans4.png"
@@ -130,7 +130,7 @@
         "id": 15,
         "name": "Spodnie garniturowe",
         "description": "Eleganckie spodnie garniturowe o swobodnym kroju, wykonane z tkaniny z dodatkiem wiskozy.",
-        "price": "300.92 zł",
+        "price": "300.92",
         "currency": "PLN",
         "category": "jeans",
         "image": "http://localhost:8081/images/jeans5.png"
@@ -139,7 +139,7 @@
         "id": 16,
         "name": "Spodnie lniane",
         "description": "Długie, luźne spodnie z materiału w rustykalnym stylu, z szerokimi nogawkami, bocznymi kieszeniami i wiązaniem.",
-        "price": "399.99 zł",
+        "price": "399.99",
         "currency": "PLN",
         "category": "jeans",
         "image": "http://localhost:8081/images/jeans6.png"
@@ -148,7 +148,7 @@
         "id": 17,
         "name": "Sukienka bawełniana",
         "description": "Sukienka o swobodnym kroju, wykonana z bawełnianej dzianiny.",
-        "price": "189.82 zł",
+        "price": "189.82",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress3.png"
@@ -157,7 +157,7 @@
         "id": 18,
         "name": "Długa sukienka",
         "description": "Damska długa sukienka z zakrytmi ramionami.",
-        "price": "400.59 zł",
+        "price": "400.59",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress4.png"
@@ -166,7 +166,7 @@
         "id": 19,
         "name": "Sportowa sukienka",
         "description": "Sukienka z bawełnianej dzianiny.",
-        "price": "189.89 zł",
+        "price": "189.89",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress5.png"
@@ -175,7 +175,7 @@
         "id": 20,
         "name": "Krótka sukienka",
         "description": "Sukienka z dresowej dzianiny.",
-        "price": "189.00 zł",
+        "price": "189.00",
         "currency": "PLN",
         "category": "dress",
         "image": "http://localhost:8081/images/dress6.png"
@@ -184,7 +184,7 @@
         "id": 21,
         "name": "Bluza bawełniana",
         "description": "Bluza o swobodnym fasonie, wykonana z bawełnianej dzianiny z domieszką recyklingowanego poliestru.",
-        "price": "159.99 zł",
+        "price": "159.99",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper2.png"
@@ -193,7 +193,7 @@
         "id": 22,
         "name": "Rozpinana bluza",
         "description": "Uszyskana z miękkiej dzianiny z dodatkiem wiskozy. ",
-        "price": "189.82 zł",
+        "price": "189.82",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper3.png"
@@ -202,7 +202,7 @@
         "id": 23,
         "name": "Bluza oversize",
         "description": "Bluza o swobodnym fasonie, uszyta z dzianiny na bazie bawełny i poliestru z recyklingu.",
-        "price": "199.59 zł",
+        "price": "199.59",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper4.png"
@@ -211,7 +211,7 @@
         "id": 24,
         "name": "Bluza sportowa",
         "description": "Uszyskana z miękkiej i przyjemnej w dotyku dzianiny.",
-        "price": "199.89 zł",
+        "price": "199.89",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper5.png"
@@ -220,7 +220,7 @@
         "id": 25,
         "name": "Bluza frotte",
         "description": "Bluza o krótszym fasonie, wykonana z dzianiny z bawełną",
-        "price": "129.00 zł",
+        "price": "129.00",
         "currency": "PLN",
         "category": "jumper",
         "image": "http://localhost:8081/images/jumper6.png"
@@ -229,7 +229,7 @@
         "id": 26,
         "name": "Kurtka bomberka",
         "description": "Kurtka o swobodnym fasonie, uszyta z tkaniny z poliestrem z recyklingu.",
-        "price": "159.99 zł",
+        "price": "159.99",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket2.png"
@@ -238,7 +238,7 @@
         "id": 27,
         "name": "Kurtka puchowa",
         "description": "Wypełniona puchem syntetycznym, aby zapewnić komfort cieplny w chłodniejsze dni w okresie przejściowym.",
-        "price": "529.99 zł",
+        "price": "529.99",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket5.png"
@@ -247,7 +247,7 @@
         "id": 28,
         "name": "Kurtka koszulowa",
         "description": "Kurtka o swobodnym fasonie, wykonana z gładkiej tkaniny.",
-        "price": "189.82 zł",
+        "price": "189.82",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket3.png"
@@ -256,7 +256,7 @@
         "id": 29,
         "name": "Kurtka wiatrówka",
         "description": "Kurtka o prostym fasonie, wykonana z gładkiej tkaniny z ociepleniem z recyklingu.",
-        "price": "129.59 zł",
+        "price": "129.59",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket4.png"
@@ -265,7 +265,7 @@
         "id": 30,
         "name": "Kurtka skórzana",
         "description": "Kurtka z klapami w szpic i długim rękawem.",
-        "price": "229.00 zł",
+        "price": "229.00",
         "currency": "PLN",
         "category": "jacket",
         "image": "http://localhost:8081/images/jacket6.png"
