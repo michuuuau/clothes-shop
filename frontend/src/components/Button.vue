@@ -12,5 +12,7 @@
     align-items: center;
     padding: 10px;
     color: white;
+    flex: 1;
 }
 </style>
+  

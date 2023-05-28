@@ -1,18 +1,18 @@
 <script setup>
-import Button from "./Button.vue"
 import { useCartStore } from "../stores/cart";
+import Button from "./Button.vue";
 
 const cartStore = useCartStore();
 </script>
 <template>
-    <div style="position: relative;">
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'cart' }">
+    <div style="position: relative">
+        <router-link :to="{ name: 'cart' }">
+            <Button>
+                <template #body>
                     <img alt="logo" class="logo" src="@/assets/basket.png" width="20" height="20" />
-                </router-link>
-            </template>
-        </Button>
+                </template>
+            </Button>
+        </router-link>
         <p class="cart-badge">{{ cartStore.itemsInCart }}</p>
     </div>
 </template>
@@ -26,6 +26,5 @@ const cartStore = useCartStore();
     border-radius: 90px;
     width: 20px;
     text-align: center;
-
 }
 </style>

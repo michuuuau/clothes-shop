@@ -1,50 +1,50 @@
 <script setup>
-import Button from "./Button.vue"
+import Button from './Button.vue';
 </script>
 <template>
     <div class="menu">
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'all' }">
+        <router-link :to="{ name: 'all' }">
+            <Button>
+                <template #body>
                     <p>Zobacz wszytskie</p>
-                </router-link>
-            </template>
-        </Button>
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'shirt' }">
+                </template>
+            </Button>
+        </router-link>
+        <router-link :to="{ name: 'shirt' }">
+            <Button>
+                <template #body>
                     <p>Koszulki</p>
-                </router-link>
-            </template>
-        </Button>
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'jeans' }">
+                </template>
+            </Button>
+        </router-link>
+        <router-link :to="{ name: 'jeans' }">
+            <Button>
+                <template #body>
                     <p>Spodnie</p>
-                </router-link>
-            </template>
-        </Button>
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'dress' }">
+                </template>
+            </Button>
+        </router-link>
+        <router-link :to="{ name: 'dress' }">
+            <Button>
+                <template #body>
                     <p>Sukienki</p>
-                </router-link>
-            </template>
-        </Button>
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'jumper' }">
+                </template>
+            </Button>
+        </router-link>
+        <router-link :to="{ name: 'jumper' }">
+            <Button>
+                <template #body>
                     <p>Bluzy</p>
-                </router-link>
-            </template>
-        </Button>
-        <Button>
-            <template #body>
-                <router-link :to="{ name: 'jacket' }">
+                </template>
+            </Button>
+        </router-link>
+        <router-link :to="{ name: 'jacket' }">
+            <Button>
+                <template #body>
                     <p>Kurtki</p>
-                </router-link>
-            </template>
-        </Button>
+                </template>
+            </Button>
+        </router-link>
     </div>
 </template>
 <style scoped>
@@ -55,7 +55,7 @@ import Button from "./Button.vue"
 
 .menu>* {
     margin: 10px 10px 10px 0;
-    background-color: #F6F4D7;
-
+    background-color: #f6f4d7;
+    display: flex;
 }
 </style>

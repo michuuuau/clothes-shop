@@ -9,10 +9,11 @@ const restClient = axios.create({
   },
 });
 
-const getProducts = (category) => {
+const getProducts = (category, name) => {
   return restClient.get("/getProducts", {
     params: {
       category,
+      name,
     },
   });
 };

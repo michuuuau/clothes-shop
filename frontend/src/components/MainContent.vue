@@ -1,25 +1,26 @@
 <script setup>
-import Product from "./Product.vue"
+import { onMounted, ref, watch } from "vue";
+import { useRoute } from "vue-router";
 import productService from "../services/ProductService";
-import { ref, onMounted, watch } from "vue";
-import { useRoute } from 'vue-router';
 import { useCartStore } from "../stores/cart";
-
-
+import Product from "./Product.vue";
 
 const products = ref([]);
 const loading = ref(true);
-const route = useRoute()
+const route = useRoute();
 const cartStore = useCartStore();
 
 async function getProductsDetails() {
-    const response = await productService.getProducts(route.name);
+    const response = await productService.getProducts(
+        route.name,
+        route.query.name
+    );
     products.value = response.data;
 }
 
 onMounted(async () => {
     await getProductsDetails();
-    loading.value = false
+    loading.value = false;
 });
 
 watch(
@@ -31,10 +32,18 @@ watch(
     }
 );
 
+watch(
+    () => route.query.name,
+    async () => {
+        loading.value = true;
+        await getProductsDetails();
+        loading.value = false;
+    }
+);
+
 function handleAddProduct(product) {
     cartStore.addProductToCart(product);
 }
-
 </script>
 <template>
     <div class="main">
@@ -47,7 +56,7 @@ function handleAddProduct(product) {
 <style scoped>
 .main {
     display: flex;
-    flex: 1
+    flex: 1;
 }
 
 .products {

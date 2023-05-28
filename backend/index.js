@@ -8,9 +8,10 @@ app.use(cors());
 
 app.get("/api/getProducts", async (req, res) => {
   const category = req.query.category;
+  const name = req.query.name;
   // const startDate = req.query.startDate;
   // const endDate = req.query.endDate;
-  const products = await productService.getProducts(category);
+  const products = await productService.getProducts(category, name);
   res.json(products);
 });
 
