@@ -1,6 +1,6 @@
 <template>
     <div class="logo">
-        <img alt="logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
+        <img @click="navigateToAll()" alt="logo" class="logo" src="@/assets/logo.png" width="125" height="125" />
         <h1>Tolando</h1>
     </div>
 </template>
@@ -12,3 +12,12 @@
     color: black;
 }
 </style>
+<script>
+export default {
+    methods: {
+        navigateToAll() {
+            this.$router.push('/all');
+        }
+    }
+};
+</script>

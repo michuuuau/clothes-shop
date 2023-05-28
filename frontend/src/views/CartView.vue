@@ -1,7 +1,30 @@
 <script setup>
 import Button from "../components/Button.vue";
 import { useCartStore } from "../stores/cart";
+import { ref } from "vue";
+
 const cartStore = useCartStore();
+
+const popupVisible = ref(false);
+const imgVisible = ref(false);
+
+const togglePopup = () => {
+    popupVisible.value = !popupVisible.value;
+};
+const toggleImage = () => {
+    imgVisible.value = !imgVisible.value;
+};
+
+const showImg = () => {
+    toggleImage();
+}
+
+const reset = () => {
+    popupVisible.value = false;
+    imgVisible.value = false;
+
+
+}
 </script>
 <template>
     <div>
@@ -17,7 +40,6 @@ const cartStore = useCartStore();
         </div>
         <div class="summary">
             <p>Suma:
-
                 {{ cartStore.cartTotal }}</p>
         </div>
     </div>
@@ -25,9 +47,56 @@ const cartStore = useCartStore();
     <div class="buy">
         <Button>
             <template #body>
-                <p>KUP TERAZ</p>
+                <p @click="togglePopup">KUP TERAZ</p>
             </template>
         </Button>
+    </div>
+    <div v-if="popupVisible" class="popup">
+        <div class="popup-content">
+            <div v-if="!imgVisible">
+                <label for="fname">Wybierz metodę płatności: </label>
+                <p></p>
+                <!-- <input type="text" id="fname" name="fname"><br><br>
+                <p>
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname"><br><br>
+                </p> -->
+
+                <input type="checkbox" id="karta" value="Karta" v-model="checkedNames"> <label for="karta">Karta</label>
+                <p>
+                    <input type="checkbox" id="gotówka" value="Gotówka" v-model="checkedNames"> <label
+                        for="gotówka">Gotówka</label>
+                </p>
+                <input type="checkbox" id="PayU" value="PayU" v-model="checkedNames"> <label for="PayU">PayU</label>
+                <p>
+                    <br>
+                    <input type="radio" id="one" value="One" v-model="picked" /><label for="one"> Przeczytałem/am oraz
+                        akceptuję regulamin.</label>
+                </p>
+                <br>
+
+                <h2>Do zapłaty: {{ cartStore.cartTotal }}</h2>
+
+                <Button>
+                    <template #body>
+                        <p @click="showImg">Zapłać</p>
+                    </template>
+                </Button>
+            </div>
+            <div v-if="imgVisible" class="final">
+                <img @click="reset" alt="correct" class="correct" src="@/assets/correct.png" width="90" height="90" />
+                <p>
+                    <label for="fname">Zamówienie zostało przyjęte do realizacji. </label>
+                <p><br>
+                    <label for="fname">Status płatności: ZAKOŃCZONA </label>
+                </p><br>
+                <br>
+                <label for="fname">W ciągu paru minut na wskazany adres email otrzymają Państwo potwierdzenie złożenia
+                    zamówienia oraz jego aktualny status. </label>
+                <br>
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 <style scoped>
@@ -48,5 +117,29 @@ const cartStore = useCartStore();
     display: flex;
     justify-content: flex-end;
     flex: 1
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+.final {
+    font-size: 20px;
+    text-align: center;
+    font-style: oblique;
 }
 </style>
