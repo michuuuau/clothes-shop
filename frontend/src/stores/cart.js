@@ -53,10 +53,12 @@ export const useCartStore = defineStore("cart", () => {
   };
 
   const decrementProductQuantity = (productId) => {
-    const product = cartItems.value.find((item) => item._id === productId);
+    const product = cartItems.value.find((item) => item.id === productId);
+    
     if (product && product.quantity >= 2) {
       product.quantity--;
     }
+
   };
 
   return {

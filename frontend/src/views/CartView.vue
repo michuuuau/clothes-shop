@@ -19,11 +19,21 @@ const showImg = () => {
     toggleImage();
 }
 
+
 const reset = () => {
     popupVisible.value = false;
     imgVisible.value = false;
 
 
+}
+function deleteHandle(product) {
+    cartStore.removeProductFromCart(product);
+}
+function incrementHandle(product) {
+    cartStore.incrementProductQuantity(product);
+}
+function decrementHandle(product) {
+    cartStore.decrementProductQuantity(product);
 }
 </script>
 <template>
@@ -33,9 +43,22 @@ const reset = () => {
                 <p>{{ product.name }}</p>
                 <div style="display: flex">
                     <p style="margin-right: 20px;">{{ product.quantity }}</p>
+                    <Button @click="incrementHandle(product.id)">
+                        <template #body>
+                            <p>+</p>
+                        </template></Button>
+                    <Button @click="decrementHandle(product.id)">
+                        <template #body>
+                            <p>-</p>
+                        </template></Button>
                     <p>{{ product.price }}</p>
+                    <Button @click="deleteHandle(product.id)">
+                        <template #body>
+                            <p>USUŃ</p>
+                        </template></Button>
                 </div>
             </div>
+            
             <hr />
         </div>
         <div class="summary">
