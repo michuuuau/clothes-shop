@@ -6,7 +6,7 @@ import Button from './Button.vue';
         <router-link :to="{ name: 'all' }">
             <Button>
                 <template #body>
-                    <p>Zobacz wszytskie</p>
+                    <p>Zobacz wszystkie</p>
                 </template>
             </Button>
         </router-link>
