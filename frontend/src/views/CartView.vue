@@ -75,28 +75,28 @@ function decrementHandle(product) {
         </Button>
     </div>
     <div v-if="popupVisible" class="popup">
-        <div class="popup-content">
-            <div v-if="!imgVisible">
-                <label for="fname">Wybierz metodę płatności: </label>
-                <p></p>
-                <!-- <input type="text" id="fname" name="fname"><br><br>
-                <p>
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                </p> -->
+  <div class="popup-content">
+    <div v-if="!imgVisible">
+      <label for="fname">Wybierz metodę płatności: </label>
+      <p></p>
 
-                <input type="checkbox" id="karta" value="Karta" v-model="checkedNames"> <label for="karta">Karta</label>
-                <p>
-                    <input type="checkbox" id="gotówka" value="Gotówka" v-model="checkedNames"> <label
-                        for="gotówka">Gotówka</label>
-                </p>
-                <input type="checkbox" id="PayU" value="PayU" v-model="checkedNames"> <label for="PayU">PayU</label>
-                <p>
-                    <br>
-                    <input type="radio" id="one" value="One" v-model="picked" /><label for="one"> Przeczytałem/am oraz
-                        akceptuję regulamin.</label>
-                </p>
-                <br>
+      <input id="karta" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="" style="display: yes;">
+      <label for="karta">Karta</label>
+
+      <p>
+        <input id="gotówka" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="" style="display: yes;">
+      <label for="gotówka">Gotówka</label>
+      </p>
+
+      <input id="PayU" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="" style="display: yes;">
+      <label for="PayU">PayU</label>
+
+      <p>
+        <br>
+        <input type="checkbox" id="one" value="One" v-model="picked" />
+        <label for="one"> Przeczytałem/am oraz akceptuję regulamin..</label>
+      </p>
+      <br>
 
                 <h2>Do zapłaty: {{ cartStore.cartTotal }}</h2>
 
@@ -164,5 +164,10 @@ function decrementHandle(product) {
     font-size: 20px;
     text-align: center;
     font-style: oblique;
+}
+
+
+.payment_method_bacs .input-radio{
+  display: block !important;
 }
 </style>
